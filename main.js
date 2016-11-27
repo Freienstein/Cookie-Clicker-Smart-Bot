@@ -1,6 +1,6 @@
 AutoClick = function() {
   Game.ClickCookie();
-  setTimeout(AutoClick, 2);
+  setTimeout(AutoClick, 1);
 }
 
 AutoClick();
