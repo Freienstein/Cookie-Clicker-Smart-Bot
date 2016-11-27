@@ -1,1 +1,1 @@
-var autoClick = setInterval(Game.ClickCookie, 2);
+var autoClick = setInterval(Game.ClickCookie, 10);
