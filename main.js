@@ -1,6 +1,6 @@
 var AutoClick = window.setInterval(CookieClick, 4);
 
-Bot.CookieClick = function()
+CookieClick = function()
 {
   Game.ClickCookie(); 
 }
