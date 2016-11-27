@@ -1,4 +1,4 @@
-var AutoClick = window.setInterval(CookieClick, 4);
+var AutoClick = window.setInterval(CookieClick(), 4);
 
 CookieClick = function()
 {
