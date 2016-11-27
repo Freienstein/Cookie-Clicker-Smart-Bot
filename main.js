@@ -1,6 +1,1 @@
-AutoClick = function() {
-  Game.ClickCookie();
-  setTimeout(AutoClick, 1);
-}
-
-AutoClick();
+var autoClick = setInterval(Game.ClickCookie, 4);
