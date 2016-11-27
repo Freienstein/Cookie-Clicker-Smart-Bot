@@ -1,9 +1,4 @@
-var clickCount = 0;
-
-CookieClick = function() {
-  Game.ClickCookie(); 
-  clickCount++;
+while (true) {
+  Game.ClickCookie();
 }
-
-var AutoClick = window.setInterval(CookieClick(), 100);
 
