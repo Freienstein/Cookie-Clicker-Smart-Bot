@@ -1,11 +1,6 @@
-// Header
-CookieClick = {};
-
-
-// Body
-var AutoClick = window.setInterval(CookieClick(), 4);
-
-CookieClick = function()
-{
+CookieClick = function() {
   Game.ClickCookie(); 
 }
+
+var AutoClick = window.setInterval(CookieClick(), 4);
+
