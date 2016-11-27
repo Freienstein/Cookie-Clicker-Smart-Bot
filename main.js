@@ -6,5 +6,6 @@ GoldenCookieClick = function () {
     if (Game.hasBuff('Cookie storm')) setTimeout(GoldenCookieClick, 5);
     else setTimeout(GoldenCookieClick, 5000);
   }
-    
+}
+
 GoldenCookieClick();
